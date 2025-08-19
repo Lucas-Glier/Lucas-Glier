@@ -5,9 +5,10 @@
 
   <!-- Animação de digitação -->
  <img 
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=%2333F3F7&width=500&lines=2%20Anos%20de%20experiencia%20.%20.%20.%20" 
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=%2333F3F7&width=500&lines=2%20Anos%20de%20experi%C3%AAncia%20.%20.%20.%20" 
   alt="Cibersegurança e Pentest"
 />
+
 
 
   <!-- Breve descrição -->
