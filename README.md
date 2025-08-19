@@ -1,0 +1,1 @@
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=33F3F7&width=435&lines=Ol%C3%A1%2C+meu+nome+%C3%A9+Lucas+%3Al" alt="Typing SVG" /></a>
