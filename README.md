@@ -1,48 +1,86 @@
-<div style="text-align: center;">
 
-  <!-- Nome -->
-  <h1 style="color:#33F3F7;">Lucas Glier</h1>
+<div align="center">
 
-  <!-- Animação de digitação -->
- <img 
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=%2333F3F7&width=500&lines=%202%20Anos%20de%20experi%C3%AAncia%20.%20.%20.%20" 
-  alt="Cibersegurança e Pentest"
-/>
+  <h1 style="color: #2c3e50; font-size: 2.5em; margin-bottom: 0.5em;">Lucas Glier</h1>
+  <p style="color: #34495e; font-size: 1.1em; margin: 0;">Security & Software Development | Cybersecurity & Pentest</p>
 
+---
 
+  <div style="margin: 2em 0;">
+    <img src="https://img.shields.io/badge/Security+-CompTIA-FF0000?style=for-the-badge&logo=comptia" />
+    <img src="https://img.shields.io/badge/CEH-Certified Ethical Hacker-00A4EF?style=for-the-badge&logo=ec-council" />
+    <img src="https://img.shields.io/badge/OSCP-Offensive Security-FF6B35?style=for-the-badge&logo=offsec" />
+  </div>
 
-  <!-- Breve descrição -->
-  <p style="font-size: 18px; color: #c0c0c0; max-width: 600px; margin: 15px auto;">
-    Cibersegurança e Pentest | Developer | Kali Linux
+  <div style="margin: 1.5em 0;">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Rust-CE422B?style=for-the-badge&logo=rust&logoColor=white" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+    <img src="https://img.shields.io/badge/Networking-0ABAB5?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Pentest-FF6F61?style=for-the-badge&logo=hackerone&logoColor=white" />
+  </div>
+
+---
+
+</div>
+
+## 👤 Sobre
+
+Profissional especializado em **cibersegurança defensiva e ofensiva**, com 2+ anos de experiência prática em **pentesting**, análise de vulnerabilidades e desenvolvimento seguro de software. Foco em criptografia aplicada, protocolos de rede e arquitetura de sistemas seguros.
+
+Experiência reconhecida através de **atividades bem-sucedidas de bug bounty** com acordos de confidencialidade em vigor. Certificações em andamento: **CompTIA Security+**, **CEH** e **OSCP**.
+
+---
+
+## 📦 Projetos em Destaque
+
+### 🔐 [SecureChat](https://github.com/Lucas-Glier/securechat) — Rust
+Chat P2P experimental com criptografia aplicada. Implementa **Noise Protocol XX** com handshake autenticado, forward secrecy e testes adversariais.
+
+### 🏥 [Medic Resume](https://github.com/eitaTI/medic-resume) — TypeScript + Next.js
+Sistema de cadastro hospitalar com 4 etapas. Integração Jira, auditoria LGPD e painel administrativo com Better Auth.
+
+### 🤖 [Thoth](https://github.com/eitaTI/Thoth) — TypeScript
+Plataforma OCR local on-premise. Monorepo com NestJS API + Next.js web, distribuída via NPX.
+
+---
+
+## 📊 Estatísticas
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Lucas-Glier&show_icons=true&theme=nord&hide_border=true&bg_color=2c3e50&text_color=ecf0f1&title_color=3498db" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Lucas-Glier&theme=nord&hide_border=true&background=2c3e50" />
+</div>
+
+---
+
+## 🛠️ Competências
+
+| Categoria | Skills |
+|-----------|--------|
+| **Linguagens** | Rust, Python, TypeScript, Bash |
+| **Frameworks** | Next.js, NestJS, React |
+| **Segurança** | Noise Protocol, Criptografia, Pentesting, Bug Bounty |
+| **DevOps** | Docker, GitHub Actions, Prisma, SQLite |
+| **Redes** | TCP/IP, Linux, Protocolos, Networking |
+
+---
+
+## 🤝 Conecte-se
+
+<div align="center">
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-glier/)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucaglier@gmail.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lucas-Glier)
+
+</div>
+
+---
+
+<div align="center">
+  <p style="color: #7f8c8d; font-size: 0.9em; margin-top: 2em;">
+    Desenvolvido com rigor técnico e comprometimento com segurança.
   </p>
-
-  <!-- Badges de habilidades -->
-  <p>
-    <img src="https://img.shields.io/badge/⚡-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/⚡-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-    <img src="https://img.shields.io/badge/⚡-Networking-0ABAB5?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/⚡-Pentest-FF6F61?style=for-the-badge&logo=hackerone&logoColor=white" />
-  </p>
-
-  <!-- Estatísticas do GitHub -->
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=Lucas-Glier&show_icons=true&theme=radical" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lucas-Glier&theme=radical" />
-  </p>
-
-  <!-- Links de contato -->
-  <p>
-    <a href="https://www.linkedin.com/in/lucas-glier/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-    </a>
-    <a href="mailto:lucaglier@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-    </a>
-  </p>
-
-  <!-- Motivação ou frase de destaque -->
-  <h3 style="margin-top: 20px; color:#33F3F7;">
-    “A sabedoria serve de freio à juventude, de consolação à velhice, de riqueza aos pobres e de ornamento aos ricos. - Diógenes ”
-  </h3>
-
 </div>
