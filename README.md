@@ -76,11 +76,3 @@ Plataforma OCR local on-premise. Monorepo com NestJS API + Next.js web, distribu
   [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lucas-Glier)
 
 </div>
-
----
-
-<div align="center">
-  <p style="color: #7f8c8d; font-size: 0.9em; margin-top: 2em;">
-    Desenvolvido com rigor técnico e comprometimento com segurança.
-  </p>
-</div>
