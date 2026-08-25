@@ -25,12 +25,6 @@
 
 </div>
 
-## 👤 Sobre
-
-Profissional especializado em **cibersegurança defensiva e ofensiva**, com 2+ anos de experiência prática em **pentesting**, análise de vulnerabilidades e desenvolvimento seguro de software.
-
-Experiência reconhecida através de **atividades bem-sucedidas de bug bounty** com acordos de confidencialidade em vigor. Certificações em andamento: **CompTIA Security+**, **CEH** e **OSCP**.
-
 ---
 
 ## 📦 Projetos em Destaque
