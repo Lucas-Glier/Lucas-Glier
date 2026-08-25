@@ -5,11 +5,6 @@
   <p style="color: #34495e; font-size: 1.1em; margin: 0;">Security & Software Development | Cybersecurity & Pentest</p>
 
 ---
-
-  <div style="margin: 2em 0;">
-    <img src="https://img.shields.io/badge/Security+-CompTIA-FF0000?style=for-the-badge&logo=comptia" />
-    <img src="https://img.shields.io/badge/CEH-Certified Ethical Hacker-00A4EF?style=for-the-badge&logo=ec-council" />
-    <img src="https://img.shields.io/badge/OSCP-Offensive Security-FF6B35?style=for-the-badge&logo=offsec" />
   </div>
 
   <div style="margin: 1.5em 0;">
