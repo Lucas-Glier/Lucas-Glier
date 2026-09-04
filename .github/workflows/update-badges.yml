@@ -1,30 +1,42 @@
-  name: Update THM & HTB badges
+name: Update THM & HTB badges
 
-permissions: contents: write
+permissions:
+  contents: write
 
-on: schedule: - cron: '0 7 * * *' workflow_dispatch: push: branches: [ main ]
+on:
+  schedule:
+    - cron: '0 7 * * *'   # every day at 07:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [ main ]
 
-jobs: update-badges: runs-on: ubuntu-latest steps: - uses: actions/checkout@v4 with: # persist-credentials: true is default; explicit here for clarity persist-credentials: true
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
-  - name: Set up Python 3.11
-    uses: actions/setup-python@v4
-    with:
-      python-version: '3.11'
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-  - name: Install deps
-    run: pip install --no-cache-dir requests beautifulsoup4
+      - name: Install deps
+        run: pip install --no-cache-dir requests beautifulsoup4
 
-  - name: Run update script
-    env:
-      THM_USER: lucas.glier
-      HTB_USER: lucasglier
-    run: python .github/scripts/update_badges.py
+      - name: Run update script
+        env:
+          THM_USER: lucas.glier
+          HTB_USER: lucasglier
+        run: python .github/scripts/update_badges.py
 
-  - name: Commit badge files
-    uses: stefanzweifel/git-auto-commit-action@v4
-    with:
-      commit_message: "chore: update THM/HTB badges"
-      file_pattern: ".github/badges/*"
-      commit_user_name: "github-actions[bot]"
-      commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
-      commit_author: "Lucas-Glier <Lucas-Glier@users.noreply.github.com>"
+      - name: Commit badge files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: update THM/HTB badges"
+          file_pattern: ".github/badges/*"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_author: "Lucas-Glier <Lucas-Glier@users.noreply.github.com>"
