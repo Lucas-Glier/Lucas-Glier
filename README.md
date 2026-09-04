@@ -15,10 +15,6 @@
     <img src="https://img.shields.io/badge/Networking-0ABAB5?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Pentest-FF6F61?style=for-the-badge&logo=hackerone&logoColor=white" />
 
-    <!-- TryHackMe & HackTheBox badges (updated automatically by GitHub Action) -->
-
-    ![TryHackMe Streak](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Lucas-Glier/Lucas-Glier/main/.github/badges/thm.json)
-    ![HackTheBox](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Lucas-Glier/Lucas-Glier/main/.github/badges/htb.json)
   </div>
 
 ---
