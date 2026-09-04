@@ -1,4 +1,4 @@
-
+ 
 <div align="center">
 
   <h1 style="color: #2c3e50; font-size: 2.5em; margin-bottom: 0.5em;">Lucas Glier</h1>
@@ -14,6 +14,11 @@
     <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
     <img src="https://img.shields.io/badge/Networking-0ABAB5?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Pentest-FF6F61?style=for-the-badge&logo=hackerone&logoColor=white" />
+
+    <!-- TryHackMe & HackTheBox badges (updated automatically by GitHub Action) -->
+
+    ![TryHackMe Streak](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Lucas-Glier/Lucas-Glier/main/.github/badges/thm.json)
+    ![HackTheBox](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Lucas-Glier/Lucas-Glier/main/.github/badges/htb.json)
   </div>
 
 ---
