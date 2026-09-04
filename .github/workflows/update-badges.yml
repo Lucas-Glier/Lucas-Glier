@@ -1,0 +1,22 @@
+  - name: Set up Python 3.11
+    uses: actions/setup-python@v4
+    with:
+      python-version: '3.11'
+
+  - name: Install deps
+    run: pip install --no-cache-dir requests beautifulsoup4
+
+  - name: Run update script
+    env:
+      THM_USER: lucas.glier        # TryHackMe username (public)
+      HTB_USER: lucasglier        # HackTheBox username (public)
+      # If HTB data requires login in the future, add HTB_EMAIL and HTB_PASSWORD as repository secrets and set them here.
+    run: python .github/scripts/update_badges.py
+
+  - name: Commit badge files
+    uses: stefanzweifel/git-auto-commit-action@v4
+    with:
+      commit_message: "chore: update THM/HTB badges"
+      file_pattern: ".github/badges/*"
+      author_name: "github-actions[bot]"
+      author_email: "41898282+github-actions[bot]@users.noreply.github.com"
